@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="tb_city" Margin="10,10,110,380" TextWrapping="Wrap"/>
+        <Button x:Name="bt_know" Content="Узнать" Margin="687,10,10,380" Click="Bt_know_Click"/>
+        <TextBlock x:Name="tb_information" Margin="10,55,10,10" TextWrapping="Wrap"/>
     </Grid>
 </Window>
